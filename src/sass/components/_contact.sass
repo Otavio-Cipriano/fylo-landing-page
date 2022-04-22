@@ -8,6 +8,8 @@
 
     &__text
         padding: 0 0.2rem
+        max-width: 500px
+        margin: 0 auto
 
         h2
             font-size: 1.4rem
@@ -23,6 +25,10 @@
         button
             margin-top: 0.5rem
             padding: 0.9rem
+
+    @media (min-width: $desktop)
+        &__text
+            margin: 0
 
     @media (min-width: $desktop)
         >div
