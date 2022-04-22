@@ -1,22 +1,31 @@
+@use '../abstracts' as * 
+
 .navbar
     >div
         display: flex
         justify-content: space-between
         padding: 1.5rem
 
-    .navbar__logo
+    &__logo
         max-width: 90px
 
         img
             width: 100%
 
-    .navbar__links
+    &__links
         display: flex
 
-        .navbar__link
-            padding: 0 10px
-            font-size: 0.9rem
+    &__link
+        padding: 0 10px
+        font-size: 1rem
+        
+        a
+            text-decoration: none
+            color:  inherit
 
-            a
-                text-decoration: none
-                color: inherit
+    @media (min-width: $desktop)
+        &__logo
+            max-width: 120px
+
+        &__link
+            font-size: 1.1rem
