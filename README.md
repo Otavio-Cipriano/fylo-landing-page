@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-using-bem-sass-and-parcel-ryQzKAeHq)
+- Live Site URL: [Add live site URL here](https://otavio-cipriano.github.io/fylo-landing-page/)
 
 ## My process
 
